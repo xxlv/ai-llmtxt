@@ -26,7 +26,6 @@ Ollama Text Compressor 是一个命令行工具，用于将大型文本文件分
    git clone https://github.com/xxlv/ai-llmtxt.git
    cd ollama-text-compressor
    ```
-````
 
 2. 编译项目：
    ```bash
