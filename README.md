@@ -1,13 +1,3 @@
-### 项目描述
-
-**Ollama Text Compressor**  
-这是一个使用 Go 语言编写的工具，用于将大文本文件分块并通过 Ollama API 进行压缩处理。它支持并发处理和两种 API 端点（`generate` 和 `chat`），能够高效地将文本压缩而不丢失重要信息。项目包含进度条显示、错误重试机制和灵活的配置选项，适用于处理大型文本文件。
-
----
-
-### README
-
-````markdown
 # Ollama Text Compressor
 
 Ollama Text Compressor 是一个命令行工具，用于将大型文本文件分块并通过 Ollama API 进行压缩处理。它利用并发处理和错误重试机制，确保高效且可靠地压缩文本，同时保留重要信息。支持 Ollama 的 `generate` 和 `chat` 端点，用户可以根据需要选择模型和配置参数。
